@@ -273,11 +273,12 @@ export default function MatrixKubeWebsite() {
                 onSubmit={(e) => {
                   e.preventDefault();
 
-                  const form = e.target;
-                  const name = form.name.value;
-                  const email = form.email.value;
-                  const contact = form.contact.value;
-                  const message = form.message.value;
+                  const formData = new FormData(e.currentTarget as HTMLFormElement);
+
+                  const name = formData.get("name") as string;
+                  const email = formData.get("email") as string;
+                  const contact = formData.get("contact") as string;
+                  const message = formData.get("message") as string;
 
                   const subject = encodeURIComponent(
                     `New Consultation Request from ${name}`
