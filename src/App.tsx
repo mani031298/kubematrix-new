@@ -1,4 +1,5 @@
-import logo from '../assets/matrixkube-logo-transparent.png';
+   import logo from './assets/matrixkube-logo-transparent.png';
+
 
 export default function MatrixKubeWebsite() {
   const services = [
