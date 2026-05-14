@@ -273,7 +273,9 @@ export default function MatrixKubeWebsite() {
                 onSubmit={(e) => {
                   e.preventDefault();
 
-                  const formData = new FormData(e.currentTarget as HTMLFormElement);
+                  const form = e.target as HTMLFormElement;
+
+                  const formData = new FormData(form);
 
                   const name = formData.get("name") as string;
                   const email = formData.get("email") as string;
