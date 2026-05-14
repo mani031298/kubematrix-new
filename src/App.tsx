@@ -94,7 +94,7 @@ export default function MatrixKubeWebsite() {
             </h2>
 
             <p className="mt-8 text-lg leading-9 text-slate-200 max-w-xl">
-              We help enterprises modernize infrastructure with cloud-native solutions, Kubernetes implementation, DevSecOps automation, professional corporate training, and enterprise consulting support for Volvo Cars.
+              We help enterprises modernize infrastructure with cloud-native solutions, Kubernetes implementation, DevSecOps automation, professional corporate training, and enterprise consulting support for infosys.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-5">
@@ -134,7 +134,7 @@ export default function MatrixKubeWebsite() {
             </p>
 
             <h3 className="text-4xl font-bold text-[#1d1d1f] mt-5 uppercase tracking-wide">
-              Trusted Consulting Partner For Volvo Cars
+              Trusted Consulting Partner For Infosys
             </h3>
 
             <p className="mt-6 text-slate-600 text-lg leading-8 max-w-3xl mx-auto">
