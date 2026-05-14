@@ -1,3 +1,5 @@
+import logo from '../assets/matrixkube-logo-transparent.png';
+
 export default function MatrixKubeWebsite() {
   const services = [
     {
@@ -32,7 +34,7 @@ export default function MatrixKubeWebsite() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex items-center justify-between">
           <div className="flex items-center gap-5">
             <img
-              src="https://iili.io/FrLOG8P.png"
+             src={logo}
               alt="MatrixKube Logo"
               className="h-20 md:h-24 w-auto object-contain drop-shadow-[0_10px_30px_rgba(0,255,255,0.25)]"
             />
