@@ -251,7 +251,7 @@ export default function MatrixKubeWebsite() {
                 </p>
 
                 <h3 className="text-2xl font-bold mt-4 break-all">
-                  founder@matrixkube.in
+                  founder@matrixkube.org
                 </h3>
               </div>
 
@@ -300,7 +300,7 @@ Message:
 ${message}`
                   );
 
-                  window.location.href = `mailto:founder@matrixkube.in?subject=${subject}&body=${body}`;
+                  window.location.href = `mailto:founder@matrixkube.org?subject=${subject}&body=${body}`;
                 }}
               >
                 <input
