@@ -261,7 +261,7 @@ export default function MatrixKubeWebsite() {
                 </p>
 
                 <h3 className="text-2xl font-bold mt-4">
-                  +91 90031 50920
+                  +91 90031 50921
                 </h3>
               </div>
             </div>
