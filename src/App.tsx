@@ -47,7 +47,7 @@ export default function MatrixKubeWebsite() {
               </h1>
 
               <p className="text-[11px] md:text-sm uppercase tracking-[0.28em] text-cyan-100 mt-3 font-light">
-                Trusted Cloud & DevOps Consulting Partner
+                Deploy Faster. Scale Smarter. Sleep Better
               </p>
             </div>
           </div>
